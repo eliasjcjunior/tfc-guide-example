@@ -28,3 +28,4 @@ resource "aws_rds_cluster_instance" "cluster_instances" {
   engine                    = "aurora-postgresql"
   db_parameter_group_name   = "custom-aurora-postgresql11-reader"
 }
+
